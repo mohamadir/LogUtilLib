@@ -3,7 +3,7 @@ package com.example.logutil
 import android.os.Handler
 import android.os.Looper
 
-class Sleka private constructor(var cardNumber: String, var cardName: String,
+public class Sleka private constructor(var cardNumber: String, var cardName: String,
                                 var myCallback: (result: String?) -> Unit? ) {
 
     init {
